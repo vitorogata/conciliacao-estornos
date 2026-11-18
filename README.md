@@ -78,35 +78,13 @@ têm crédito de mesmo valor dentro do período.
 Sete testes cobrem a máscara de CPF, as cinco categorias de classificação e o
 cálculo do percentual de conformidade.
 
-## Arquivos
+## Arquivos e Funções
 
-|
- Arquivo 
-|
- Funcao 
-|
-|
----
-|
----
-|
-|
-`gerar_dados.py`
-|
- cria as duas bases sinteticas 
-|
-|
-`conciliar.py`
-|
- classifica os contratos e gera o relatorio 
-|
-|
-`test_conciliar.py`
-|
- testes automatizados 
-|
-|
-`requirements.txt`
-|
- dependencia (pandas) 
-|
+
+- `gerar_dados.py`  cria as duas bases sintéticas 
+
+- `conciliar.py` classifica os contratos e gera o relatório 
+
+- `test_conciliar.py` testes automatizados 
+
+- `requirements.txt` dependência (pandas) 
