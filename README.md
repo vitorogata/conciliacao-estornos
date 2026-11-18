@@ -87,4 +87,8 @@ cálculo do percentual de conformidade.
 
 - `test_conciliar.py` testes automatizados 
 
-- `requirements.txt` dependência (pandas) 
+- `requirements.txt` dependência (pandas)
+
+- `.gitignore` impede que os CSV gerados e o `__pycache__` entrem no repositório
+
+Os scripts geram `base_estornos.csv`, `extrato.csv` e `divergencias.csv` na pasta do projeto. Eles não estão no repositório: o `.gitignore` os mantém fora.
